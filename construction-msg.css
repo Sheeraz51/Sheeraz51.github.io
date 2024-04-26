@@ -1,0 +1,15 @@
+.construction-message {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999; /* Ensure it appears above other content */
+}
+
+.construction-message p {
+    margin: 0;
+}
